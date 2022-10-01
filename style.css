@@ -1,0 +1,110 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+    color: rgb(250, 243, 243);
+}
+
+body {
+    margin-top: 24px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(4, 37, 4);
+    font-size: 28px;
+  
+
+}
+
+main{
+    margin-top: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+ 
+}
+
+
+#lista{
+display: flex;
+text-decoration: none;
+list-style: none;
+    gap       : 48px;
+       
+}
+
+li a{
+    padding   : 5px;
+}
+li a:hover {
+   
+    background-color: rgb(2, 59, 2);
+    border-radius: 4px;
+    color:rgb(9, 245, 9);
+    transition: 0.4s;
+
+    
+}
+     a{
+        text-decoration: none;
+    }
+ 
+
+#logo{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+
+}
+
+h1{
+font-size: 32px;
+font-style: uppercase;
+}
+
+#textos{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 100px;
+line-height: 50px;
+text-align: center;
+align-items: center;
+}
+
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;}
+
+#coffee-woman {
+width: 300px;
+border-radius: 4%;
+}
+
+#coffee-style {
+
+    width: 450px;
+    height: 240px;
+    
+    border-radius: 4%;
+    }
+
+
+    #pique-nique {
+
+        width: 280px;
+        height: 260px;
+        
+        border-radius: 4%;
+        }
+
+footer{
+
+    background-color: rgb(2, 129, 2);
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
